@@ -1,0 +1,98 @@
+/* Navbar */
+  .main {
+    padding: 2rem 0 2rem;
+    backdrop-filter: brightness(50%);
+    height: 10px;
+  }
+
+  .other {
+    padding: 2rem 0 2rem;
+    backdrop-filter: brightness(10%);
+    height: 10px;
+  }
+  
+  .navbar-brand {
+    font-family: "Kalam";
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ca9670;
+  }
+  
+  .nav-item {
+    padding: 0 18px;
+  }
+  
+  .nav-link {
+    font-size: 1.8rem;
+    font-family: "Montserrat-Light";
+    color: #ca9670;
+  }
+
+  .nav-hover:hover {
+    color: #fba35d;
+  }
+
+/* Headings */
+
+
+h1 {
+  color:#F3E99F;
+  font-size: 4rem;
+  font-family: "Rajdhani";
+    font-weight: 700;
+    padding: 3rem 15rem 0;
+    margin-bottom: -.1px;
+    backdrop-filter: brightness(90%);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+
+  h3 { 
+    color:#F3E99F;
+    font-size: 2rem;
+    font-family: "Rajdhani";
+    font-weight: 700;
+    padding: 3rem 15rem 0;
+    margin-bottom: -.1px;
+    backdrop-filter: brightness(90%);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+
+  h4,a {
+    color: grey;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: "Rajdhani";
+    padding: 0.5rem 1rem 1rem;    
+  }
+  
+/* Others */
+
+  #Title {
+    background-image: url("Logos/wp8191806-anime-library-4k-wallpapers.jpg");
+    background-size: 96rem;
+    background-repeat: no-repeat;
+  }
+
+
+  .dropbox {
+    height: 198px;
+    padding: 0 38rem 0;
+  }
+
+  .logo {
+    height: 170px;
+    padding: 1rem 2.5rem 1rem;
+    margin: 0 4rem 0;
+  }
+  
+  .logo:hover {
+    background-color: #fba35d;
+  }
+
+  #Content {
+    padding: 2rem 10rem 2rem;
+  }
+
+  .content-box {
+    padding: 0.5rem 0 1rem;
+  }
