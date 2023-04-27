@@ -2,20 +2,17 @@
   .main {
     padding: 2rem 0 2rem;
     backdrop-filter: brightness(50%);
-    height: 10px;
   }
 
   .other {
     padding: 2rem 0 2rem;
-    backdrop-filter: brightness(10%);
-    height: 10px;
+    backdrop-filter: brightness(0%);
   }
   
   .navbar-brand {
     font-family: "Kalam";
     font-size: 2rem;
     font-weight: bold;
-    color: #ca9670;
   }
   
   .nav-item {
@@ -26,10 +23,13 @@
     font-size: 1.8rem;
     font-family: "Montserrat-Light";
     color: #ca9670;
-  }
+  }  
 
-  .nav-hover:hover {
-    color: #fba35d;
+  .nav-hover {
+    color: #ca9670 !important;
+  }
+  .navbar-nav > li > a:hover {
+    color: #fba35d ;
   }
 
 /* Headings */
@@ -71,18 +71,16 @@ h1 {
     background-image: url("Logos/wp8191806-anime-library-4k-wallpapers.jpg");
     background-size: 96rem;
     background-repeat: no-repeat;
+    height: 100%;
   }
 
 
   .dropbox {
     height: 198px;
-    padding: 0 38rem 0;
   }
 
   .logo {
-    height: 170px;
-    padding: 1rem 2.5rem 1rem;
-    margin: 0 4rem 0;
+    height: 165px;
   }
   
   .logo:hover {
@@ -95,4 +93,252 @@ h1 {
 
   .content-box {
     padding: 0.5rem 0 1rem;
+    text-align: center;
   }
+
+  .barrier-logo {
+    display: block;
+    height: 100px;
+    margin: 0 auto;
+  }
+
+  .barrier {
+    color: #000000;
+    font-size: 1.5rem;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  @media screen and (max-width: 420px) {
+
+  .main {
+    padding: 2rem 0 2rem;
+    backdrop-filter: brightness(10%);
+  }
+
+    
+  h1 {
+    color:black;
+    font-size: 2rem;
+    font-family: "Rajdhani";
+    font-weight: 700;
+    padding: 3rem 5rem 2rem;
+    margin-bottom: -.1px;
+    backdrop-filter: brightness(100%);
+    text-shadow: 0 0 0;
+  }
+
+  h3 { 
+    color:black;
+    font-size: 1.3rem;
+    font-family: "Rajdhani";
+    font-weight: 700;
+    padding: 1rem 5rem 2rem;
+      margin-bottom: -.1px;
+      backdrop-filter: brightness(100%);
+      text-shadow: 0 0 0;
+    }
+
+    h4,a {
+      color: grey;
+      text-align: center;
+      font-size: 1.3rem;
+      font-family: "Rajdhani";
+      padding: 0.5rem 0.3em 1rem;    
+    }
+    
+    .dropbox {
+      height: 90px;
+    }
+
+    #Title {
+      background-image: none;
+      height: 100%;
+    }
+
+    #Content {
+      padding: 2rem 7.3rem 2rem;
+    }
+
+    .content-box {
+      padding: 0.5rem 1.5rem 1rem;
+    }
+
+
+  }
+
+  @media screen and (min-width: 421px ) and (max-width: 500px) {
+
+    .main {
+      padding: 2rem 0 2rem;
+      backdrop-filter: brightness(10%);
+    }
+  
+      
+    h1 {
+      color:black;
+      font-size: 2rem;
+      font-family: "Rajdhani";
+      font-weight: 700;
+      padding: 3rem 5rem 2rem;
+      margin-bottom: -.1px;
+      backdrop-filter: brightness(100%);
+      text-shadow: 0 0 0;
+    }
+  
+    h3 { 
+      color:black;
+      font-size: 1.3rem;
+      font-family: "Rajdhani";
+      font-weight: 700;
+      padding: 1rem 5rem 2rem;
+        margin-bottom: -.1px;
+        backdrop-filter: brightness(100%);
+        text-shadow: 0 0 0;
+      }
+  
+      h4,a {
+        color: grey;
+        text-align: center;
+        font-size: 1.3rem;
+        font-family: "Rajdhani";
+        padding: 0.5rem 0.3em 1rem;    
+      }
+      
+      .dropbox {
+        height: 90px;
+      }
+  
+      #Title {
+        background-image: none;
+        height: 100%;
+      }
+  
+      #Content {
+        padding: 2rem 7.3rem 2rem;
+      }
+  
+      .content-box {
+        padding: 0.5rem 1.5rem 1rem;
+      }
+  
+  
+    }
+
+  @media screen and (min-width: 750px) and (max-width: 900px) {
+
+    .main {
+      padding: 2rem 0 2rem;
+      backdrop-filter: brightness(10%);
+    }
+    
+        
+    h1 {
+      color:black;
+      font-size: 2rem;
+      font-family: "Rajdhani";
+      font-weight: 700;
+      padding: 3rem 5rem 2rem;
+      margin-bottom: -.1px;
+      backdrop-filter: brightness(100%);
+      text-shadow: 0 0 0;
+    }
+    
+    h3 { 
+      color:black;
+      font-size: 1.3rem;
+      font-family: "Rajdhani";
+      font-weight: 700;
+      padding: 1rem 5rem 2rem;
+      margin-bottom: -.1px;
+      backdrop-filter: brightness(100%);
+      text-shadow: 0 0 0;
+    }
+    
+    h4,a {
+      color: grey;
+      text-align: center;
+      font-size: 1.3rem;
+      font-family: "Rajdhani";
+      padding: 0.5rem 0.3em 1rem;    
+    }
+      
+    .dropbox {
+      height: 90px;
+    }
+    
+    #Title {
+      background-image: none;
+      height: 100%;
+    }
+    
+    #Content {
+      padding: 2rem 7.3rem 2rem;
+    }
+    
+    .content-box {
+      padding: 0.5rem 2.5rem 1rem;
+    }
+  
+  
+    }
+
+  @media screen and (min-width: 500px) and (max-width: 600px) {
+
+    .main {
+      padding: 2rem 0 2rem;
+      backdrop-filter: brightness(10%);
+    }
+    
+        
+    h1 {
+      color:black;
+      font-size: 2.5rem;
+      font-family: "Rajdhani";
+      font-weight: 700;
+      padding: 3rem 5rem 2rem;
+      margin-bottom: -.1px;
+      backdrop-filter: brightness(100%);
+      text-shadow: 0 0 0;
+      }
+    
+    h3 { 
+      color:black;
+      font-size: 1.6rem;
+      font-family: "Rajdhani";
+      font-weight: 700;
+      padding: 1rem 5rem 2rem;
+      margin-bottom: -.1px;
+      backdrop-filter: brightness(100%);
+      text-shadow: 0 0 0;
+    }
+    
+    h4,a {
+      color: grey;
+      text-align: center;
+      font-size: 1.3rem;
+      font-family: "Rajdhani";
+      padding: 0.5rem 0.3em 1rem;    
+    }
+      
+    .dropbox {
+      height: 90px;
+    }
+    
+    #Title {
+      background-image: none;
+      height: 100%;
+    }
+    
+    #Content {
+      padding: 2rem 7.3rem 2rem;
+    }
+    
+    .content-box {
+      padding: 0.5rem 1.5rem 1rem;
+    }
+    
+    
+      }
+
+    
