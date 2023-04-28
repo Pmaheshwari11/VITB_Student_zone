@@ -36,7 +36,9 @@
 
 
 h1 {
-  color:#F3E99F;
+  color:#ffffff;
+  
+  /* mix-blend-mode: ; */
   font-size: 4rem;
   font-family: "Rajdhani";
     font-weight: 700;
@@ -47,7 +49,7 @@ h1 {
   }
 
   h3 { 
-    color:#F3E99F;
+    color:white;
     font-size: 2rem;
     font-family: "Rajdhani";
     font-weight: 700;
@@ -68,8 +70,8 @@ h1 {
 /* Others */
 
   #Title {
-    background-image: url("Logos/wp8191806-anime-library-4k-wallpapers.jpg");
-    background-size: 96rem;
+    background-image: url("Logos/wp7713574-anime-library-wallpapers.jpg");
+    background-size: 95rem;
     background-repeat: no-repeat;
     height: 100%;
   }
